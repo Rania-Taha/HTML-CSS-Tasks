@@ -4,17 +4,16 @@ body { background-color:rgb(245, 235, 219);}
 .ab {background-color:khaki;}
 
 #a {
-    
+    width:70%; ;
     background-color:rgb(246, 241, 241);
     border:  2px solid; padding-left: 7px;
-    margin-right: 600px;
     padding-right: 7px
 }
 
 #b { 
+    width:70% ;
     background-color: rgb(246, 241, 241);
     border: 2px dashed; 
-    margin-right: 600px;
     padding-left: 7px
 }
 
@@ -27,9 +26,9 @@ body { background-color:rgb(245, 235, 219);}
  }
 
  #d { 
+    width:70% ;
     background-color: rgb(246, 241, 241);
-    border: 2px solid; margin-right: 600px;
+    border: 2px solid ;
     padding-left: 5px ; 
-    padding-right: 7px ;
     color:darkmagenta
 }
