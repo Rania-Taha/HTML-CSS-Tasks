@@ -1,0 +1,36 @@
+
+.div1 { border: 1px solid black;
+        height: 340px; width: 250px;
+        display: inline-block; padding-left: 10px }
+        .div1 img { width: 250px ; display: block;}
+        .div1 h2 { display: block; text-align: center; 
+            vertical-align: top;
+        }
+
+
+.div2 { border: 1px solid black;
+        height: 340px; width: 250px;
+        display: inline-block; 
+        position: relative;  
+        margin-left: 10px; margin-right: 10px; vertical-align: top;}
+        .div2 p { padding-left: 7px;}
+        .div2 img { width: 250px ;  display: block; margin-top: 20;}
+        .div2 h2 { display: block; text-align: center;}
+        .div2 footer { background-color: gray;
+                     font-size: larger;
+                     color: white; width: 250px;
+                     position: absolute; bottom: 0%;}
+
+
+
+.div3 {
+    border: 1px solid black;
+    height: 340px; width: 250px;
+    display: inline-block;
+    position: relative; vertical-align: top;}
+    .div3 p { padding-left: 7px;}
+    .div3 img { width: 250px ;  display: block;}
+    .div3 h2 { display: block; text-align: center; }
+    .div3 footer { background-color: gray;
+                   color: white; font-size: larger;
+                   position: absolute; bottom: 0%; width: 250px}
