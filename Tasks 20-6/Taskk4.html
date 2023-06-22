@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task4</title>
+    <style>
+        section {
+                   border: 2px dotted;
+                   Width: fit-content;
+                   height: 100px;
+                   margin-bottom: 50px;
+                position: relative;
+                                      }
+        div {
+                display: inline;
+                border: 1px solid;
+                padding-bottom: 82px;
+                padding-right: 50px;
+                background-color: red;
+                                       }
+       p { display: inline;}
+
+      .static {
+               background-color: green;
+               position: static;
+                }
+      .relative {
+   background-color: green;
+  position: relative;
+  left: 30px;
+  top: 20px;
+}
+.absolute {
+  background-color: green;
+  position: absolute;
+  left: 20px;
+  top: 7px;
+}
+    </style>
+  </head>
+  <body>
+
+    <h4>Position: static</h4>
+    <section>
+      <div><p>One</p></div>
+      <div class="static"><p>Two</p></div>
+      <div><p>Three</p></div>
+      <div><p>Four</p></div>
+    </section>
+
+    <h4>Position: relative</h4>
+    <section>
+      <div><p>One</p></div>
+      <div class="relative"><p>Two</p></div>
+      <div><p>Three</p></div>
+      <div><p>Four</p></div>
+    </section>
+
+    <h4>Position: absolute</h4>
+    <section>
+      <div><p>One</p></div>
+      <div class="absolute"><p>Two</p></div>
+      <div><p>Three</p></div>
+      <div><p>Four</p></div>
+    </section>
+  </body>
+</html>
