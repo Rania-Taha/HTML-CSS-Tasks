@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            margin-top: 10px;
+            display: grid;
+            width: 80%;
+            grid-template-columns: auto auto auto auto;
+            margin-left: 10%;
+            gap: 10px;
+        }
+
+        .green {
+            background-color: rgb(110, 193, 110);
+            height: 230px;
+            grid-column: 1/5;
+            gap: 20px 20px;
+
+        }
+
+        .blue {
+            height: 230px;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            grid-column: 1/5;
+            gap: 20px;
+        }
+
+        .blue1 {
+            background-color: rgb(12, 199, 192);
+        }
+
+        .grey {
+            display: grid;
+            grid-template-columns: auto auto auto auto;
+            grid-column: 1/5;
+            gap: 20px;
+        }
+
+        .grey1 {
+            background-color: rgb(199, 190, 190);
+            height: 150px;
+
+        }
+
+
+        /*TABLET*/
+        @media screen and (min-width: 401px) and (max-width:768px) {
+
+            .container {
+                margin-top: 10px;
+                display: grid;
+                width: 80%;
+                grid-template-columns: auto auto auto auto;
+                margin-left: 10%;
+                gap: 10px;
+            }
+
+            .green {
+                background-color: rgb(110, 193, 110);
+                height: 180px;
+                grid-column: 1/5;
+                margin-bottom: 15px;
+            }
+
+            .blue1 {
+                background-color: rgb(12, 199, 192);
+                grid-column: 1/5;
+                height: 65px;
+
+            }
+
+            .grey {
+                display: grid;
+                grid-template-columns: auto auto;
+                grid-column: 1/5;
+                margin-top: 15px;
+            }
+
+            .grey1 {
+                background-color: rgb(199, 190, 190);
+                height: 65px;
+
+            }
+        }
+
+        /*MOBILE*/
+        @media screen and (max-width: 400px) {
+
+            .container {
+                margin-top: 10px;
+                display: grid;
+                grid-template-rows: auto;
+                width: 80%;
+                margin-left: 10%;
+                gap: 10px;
+            }
+
+            .green {
+                background-color: rgb(110, 193, 110);
+                height: 100px;
+                grid-row: 1/2;
+            }
+
+            .blue {
+                display: grid;
+                grid-template-columns: auto;
+                height: 330px;
+                gap: 10px;
+            }
+
+            .blue1 {
+                height: 100 px;
+            }
+
+            .grey {
+                display: grid;
+                grid-template-columns: auto;
+                height: 330px;
+                margin-top: 10px;
+            }
+
+            .grey1 {
+                height: 100px
+            }
+
+
+
+
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="green"> </div>
+        <div class="blue">
+            <div class="blue1"></div>
+            <div class="blue1"></div>
+            <div class="blue1"></div>
+        </div>
+        <div class="grey">
+            <div class="grey1"> </div>
+            <div class="grey1"> </div>
+            <div class="grey1"> </div>
+            <div class="grey1"> </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
