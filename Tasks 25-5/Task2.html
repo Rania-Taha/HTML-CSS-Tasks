@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Task 2</title>
+</head>
+<style>
+    div { width: 100px;
+        height: 100px;
+        background-color: green;
+        border-radius: 7%;
+        animation-name: box ;
+        animation-duration: 6s; 
+        animation-iteration-count: infinite;
+        animation-fill-mode: backwards;
+        position: relative;
+        animation-timing-function: ease-in;} 
+
+    @keyframes box { 
+        0% { background:linear-gradient(green , rgb(93, 223, 173)); left: 0px; top: 0px}
+       17% { background:linear-gradient(rgb(93, 223, 173) , blue); left: 300px; top: 0px }
+       33% { background:linear-gradient(blue, yellow); left: 300px; top: 300px }
+       50% { background:linear-gradient(yellow, red); left: 0px; top: 300px }
+       65% { background:linear-gradient(red, violet); left: 0px; top: 150px }
+       82% { background:linear-gradient(violet, rgb(45, 115, 175)); left: 0px; top: 0px }
+       100% { background:linear-gradient(violet, green); left: 150px ; top:0px }
+    }
+</style>
+<body>
+  <div> </div>  
+</body>
+</html>
